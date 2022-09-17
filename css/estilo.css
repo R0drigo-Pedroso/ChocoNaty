@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.font-menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.font-menu li a:hover {
+    background: #f2acb9;
+    color: white !important;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+.logoHeader {
+    width: 100px;
+}
+
+/* call action */
+
+.bg-action {
+    background: #f2acb9;
+}
