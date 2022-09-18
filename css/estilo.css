@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 .font-menu {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
 }
 
 .font-menu li a:hover {
@@ -16,6 +21,11 @@
     width: 100px;
 }
 
+/* bloco dentro da call action principal */
+    .width-div {
+        height: 650px;
+}
+
 /* call action */
 
 .bg-action {
@@ -23,10 +33,22 @@
     background-size: cover;
 }
 
-.teste {
-    background: #f2acb9;
+.bg-action-central {
+    background: hwb(356 73% 5%);
 }
 
-.teste1 {
-    height: 500px;
+/* cor de fontes para textos */
+.text-callAction {
+    color: #591919 !important;
 }
+
+.btn-whats {
+    background: #D95B72 !important;
+    color: white !important;
+}
+
+    .btn-whats:hover {
+        background: hsl(349, 64%, 68%) !important;
+        color: white !important;
+    }
+
