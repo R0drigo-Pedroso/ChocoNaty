@@ -19,5 +19,14 @@
 /* call action */
 
 .bg-action {
+    background-image: url('/img/morangocreme300.png');
+    background-size: cover;
+}
+
+.teste {
     background: #f2acb9;
+}
+
+.teste1 {
+    height: 500px;
 }
