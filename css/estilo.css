@@ -59,3 +59,15 @@ h2 {
         color: white !important;
     }
 
+
+/* Icons de Contato */
+
+.btn-instagram {
+    background: #517fa4 !important;
+    color: white !important;
+}
+
+.btn-whatsapp {
+    background: #34af23 !important;
+    color: white !important;
+}
