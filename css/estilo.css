@@ -39,7 +39,17 @@ h2 {
 }
 
 /* Img cads Serviço */
-.card-one {
+.card-um {
+    background: url('/img/bolomorango.png');
+    background-size: cover;
+}
+
+.card-dois {
+    background: url('/img/bolomorango.png');
+    background-size: cover;
+}
+
+.card-tres {
     background: url('/img/bolomorango.png');
     background-size: cover;
 }
