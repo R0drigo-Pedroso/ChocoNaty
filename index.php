@@ -14,6 +14,8 @@
 
   <title>ChocoNaty Confeitaria</title>
 
+  <script>document.documentElement.className += 'js';</script>
+
   <!-- CSS Bootstrap -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
 
@@ -31,7 +33,7 @@
   <header id="inicio">
     <section class="navbar navbar-expand-lg shadow">
       <section class="container">
-        <a class="navbar-brand col-3 d-flex justify-content-center" href="index.html"><img class="logoHeader" src="img/logo-choconaty.png"
+        <a class="navbar-brand col-3 d-flex justify-content-center" href="index.php"><img class="logoHeader" src="img/logo-choconaty.png"
             alt="logo da choconaty"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,25 +64,19 @@
   <!-- final menu de navegação -->
 
   <!-- Call Action -->
-  <section class="bg-action">
-    <section class="container">
-      <section class="row featurette">
-        <section class="col-md-7 m-auto p-5 rounded-2 shadow bg-action-central">
-          <section>
-            <h1 class="display-6 fw-bold pe-lg-8">
-              Procurando doces e bolos feitos com muito carinho?
-            </h1>
-            <!-- text -->
-            <p class="mb-4 lead">
-              Aqui na ChocoNaty, te entregamos isso e muito mais! Possuímos como objetivo, entregar para todos os nossos clientes, uma experiência
-              fantástica desde o pedido dos nossos deliciosos doces até o momento que ele estiver prontinho nas suas mãos!
-            </p>
-            <!-- btn -->
+  <section class="bg-action js-scroll">
+    <section class="px-5 py-6 py-xxl-9 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform" style="background-image: url('./img/historia.jpg');">
+      <section class="container">
+        <section class="row justify-content-md-center">
+          <section class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
+            <h1 class="display-3 fw-bold mb-3">Procurando doces e bolos feitos com muito carinho?</h1>
+            <p class="lead mb-5">Aqui na ChocoNaty, te entregamos isso e muito mais! Possuímos como objetivo, entregar para todos os nossos clientes, uma experiência
+              fantástica desde o pedido dos nossos deliciosos doces até o momento que ele estiver prontinho nas suas mãos!</p>
+            <section class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <a href="#" class="btn btn-whats text-uppercase fw-bold">Faça seu pedido</a>
+            </section>
           </section>
         </section>
-
-        <div class="col-md-5 d-none d-md-block width-div"></div>
       </section>
     </section>
     <!-- /.container -->
@@ -88,7 +84,7 @@
   <!-- final Call Action top -->
 
   <!-- Cards Bolos & Doces -->
-  <main class="container px-4 py-5" id="custom-cards">
+  <main class="container px-4 py-5 js-scroll" id="custom-cards">
     <h2 class="pb-2 border-bottom" id="servico">Bolos & Doces</h2>
 
     <section class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -140,7 +136,7 @@
   <!-- Final Cards Bolos e Doces -->
 
   <!-- Call Action -->
-  <section class="container-fluid bg-action-central">
+  <section class="container-fluid bg-action-central js-scroll">
     <section class="container">
       <div class="row featurette flex-row-reverse py-5">
         <div class="col-md-7 text-callAction m-auto">
@@ -164,7 +160,7 @@
   <!-- Call Action -->
 
   <!-- Cards galeria -->
-  <section class="album py-5 bg-light">
+  <section class="album py-5 bg-light js-scroll">
     <section class="container">
       <h2 class="pb-2 border-bottom">O Evento muito mais Delicioso</h2>
 
@@ -210,7 +206,7 @@
   <!-- Final Cards Galeria -->
 
   <!-- Call Sobre (Historia) ChocoNaty -->
-  <article class="container-fluid bg-action-central" id="sobre">
+  <article class="container-fluid bg-action-central js-scroll" id="sobre">
     <section class="container">
       <section class="row featurette flex-row-reverse py-5">
 
@@ -238,7 +234,7 @@
   <!-- Call Sobre ChocoNaty -->
 
   <!-- Form Contato -->
-  <section class="container-fluid" id="contato">
+  <section class="container-fluid js-scroll" id="contato">
     <section class="container">
       <section class="row featurette flex-row-reverse py-5">
         <section class="col-md-7 text-callAction m-auto">
@@ -317,24 +313,17 @@
       </section>
 
       <ul class="nav col-md-4 justify-content-end text-uppercase">
-        <li class="nav-item m-1">
-          <a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="index.html" title="pagina inicial">Inicio</a>
-        </li>
-        <li class="nav-item m-1">
-          <a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="index.html" title="pagina inicial">Serviço</a>
-        </li>
-        <li class="nav-item m-1">
-          <a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="#sobre" title="pagina inicial">Sobre</a>
-        </li>
-        <li class="nav-item m-1">
-          <a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="#contato" title="pagina inicial">Contato</a>
-        </li>
+        <li class="nav-item m-1"><a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="#inicio" title="pagina inicial">Inicio</a></li>
+        <li class="nav-item m-1"><a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="#servico" title="serviço">Serviço</a></li>
+        <li class="nav-item m-1"><a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="#sobre" title="sobre">Sobre</a></li>
+        <li class="nav-item m-1"><a class="nav-link active fonte-nav text-dark px-3" aria-current="page" href="#contato" title="contato">Contato</a></li>
       </ul>
     </section>
   </footer>
 
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/form.js"></script>
+  <script src="js/animacao.js"></script>
 </body>
 
 </html>
