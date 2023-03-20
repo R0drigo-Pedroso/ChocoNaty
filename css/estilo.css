@@ -34,17 +34,24 @@ h2 {
 /* call action */
 
 .bg-action-central {
-    background: hwb(356 73% 5%);
+    /* background: hwb(356 73% 5%); */
+    background: #E884AA;
 }
 
 /* Img cads Serviço */
 .card-um {
     background: url('/img/historia.jpg');
     background-size: cover;
+  }
+
+.teste {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 
 .card-dois {
     background: url('/img/bolomorango.png');
+    width: 100%;
     background-size: cover;
 }
 
@@ -55,11 +62,12 @@ h2 {
 
 /* cor de fontes para textos */
 .text-callAction {
-    color: #591919 !important;
+    color: #fff !important;
 }
 
 .btn-whats {
-    background: #D95B72 !important;
+    /* background: #D95B72 !important; */
+    background: #D93272 !important;
     color: white !important;
 }
 
@@ -68,6 +76,10 @@ h2 {
         color: white !important;
     }
 
+
+    .imgtam {
+      width: 100%;
+    }
 
 /* Icons de Contato */
 
