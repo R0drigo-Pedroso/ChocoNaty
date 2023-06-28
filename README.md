@@ -1,6 +1,3 @@
-Certamente! Aqui está o conteúdo que você pode usar para criar o arquivo README.md:
-
-```markdown
 # ChocoNaty 😄
 
 ChocoNaty é uma confeitaria especializada na arte de criar bolos e doces temáticos, trazendo a doçura tanto para o paladar quanto para o coração. Nossas criações são feitas com amor e dedicação, buscando sempre encantar e adoçar os momentos especiais da vida de nossos clientes. 🍰🍭❤️
@@ -65,6 +62,8 @@ ibidos ícones das redes sociais da ChocoNaty.
 ## Considerações Finais 🎊
 
 O projeto da ChocoNaty é um exemplo de site de uma confeitaria, com foco na apresentação de bolos e doces temáticos. O uso do HTML, CSS, Bootstrap e JavaScript permite a criação de uma interface bonita e responsiva, além de possibilitar a personalização e interatividade. Esperamos que você se delicie com nossas criações e que possamos fazer parte dos momentos especiais da sua vida. Entre em contato conosco para fazer seu pedido e adoçar sua celebração! 🥳🍰
+
 ```
 
 Basta copiar o conteúdo acima e colá-lo em um arquivo chamado `README.md` no diretório raiz do seu projeto. Sinta-se à vontade para fazer quaisquer alterações ou adições necessárias.
+```
