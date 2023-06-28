@@ -3,27 +3,23 @@
 
 html {
   scroll-behavior: smooth !important;
+  font-family: 'Poppins' !important; 
 }
 
-.font-menu { 
-    font-family: 'Poppins', sans-serif !important;
-    font-weight: 400 !important;
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Poppins'!important;
 }
 
-h2 {
-    font-family: 'Poppins', sans-serif !important;
-    font-weight: 400 !important;
-}
 
 .font-menu li a:hover {
-    background: #f2acb9;
+    background: #F2E8DF;
     color: #4F4F4F !important;
     border-radius: 5px;
     transform: scale(1.2);
 }
 
 .logoHeader {
-    width: 100px;
+    width: 7rem;
 }
 
 /* bloco dentro da call action principal */
@@ -64,14 +60,15 @@ h2 {
     color: #4F4F4F !important;
 }
 
-.btn-whats {
+.btn-pedido {
     /* background: #D95B72 !important; */
-    background: #D93272 !important;
-    color: white !important;
+    background: #F2E8DF !important;
+    color: #4F4F4F !important;
 }
 
-    .btn-whats:hover {
-        background: hsl(349, 64%, 68%) !important;
+    .btn-pedido:hover {
+        /* background: hsl(349, 64%, 68%) !important; */
+        background: #8C3A27 !important;
         color: white !important;
     }
 
