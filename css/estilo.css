@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth !important;
 }
 
-.font-menu {
+.font-menu { 
     font-family: 'Poppins', sans-serif !important;
     font-weight: 400 !important;
 }
@@ -17,7 +17,7 @@ h2 {
 
 .font-menu li a:hover {
     background: #f2acb9;
-    color: white !important;
+    color: #4F4F4F !important;
     border-radius: 5px;
     transform: scale(1.2);
 }
@@ -34,8 +34,7 @@ h2 {
 /* call action */
 
 .bg-action-central {
-    /* background: hwb(356 73% 5%); */
-    background: #E884AA;
+    background: #F2E8DF;
 }
 
 /* Img cads Serviço */
@@ -62,7 +61,7 @@ h2 {
 
 /* cor de fontes para textos */
 .text-callAction {
-    color: #fff !important;
+    color: #4F4F4F !important;
 }
 
 .btn-whats {
@@ -81,6 +80,14 @@ h2 {
       width: 100%;
     }
 
+.btn-rose {
+  background: #E884AA;
+  color: #fff;
+}
+
+.btn-rose:hover {
+  background: #E884AA;
+}
 /* Icons de Contato */
 
 .btn-instagram {
