@@ -62,6 +62,3 @@ ibidos ícones das redes sociais da ChocoNaty.
 ## Considerações Finais 🎊
 
 O projeto da ChocoNaty é um exemplo de site de uma confeitaria, com foco na apresentação de bolos e doces temáticos. O uso do HTML, CSS, Bootstrap e JavaScript permite a criação de uma interface bonita e responsiva, além de possibilitar a personalização e interatividade. Esperamos que você se delicie com nossas criações e que possamos fazer parte dos momentos especiais da sua vida. Entre em contato conosco para fazer seu pedido e adoçar sua celebração! 🥳🍰
-
-```
-```
